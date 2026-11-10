@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+
+# Secrets
+.env
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+# Local vector DB and documents
+chroma_db/
+data/*
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
